@@ -1,0 +1,22 @@
+.hoverable{
+    position: absolute;
+    border: 3px solid red;
+    display: inline;    
+    width: 5%;
+}
+
+.material{
+    position: absolute;
+    border: 3px solid green;
+    display: inline-block;
+    top: 25px;
+    opacity: 0;
+    transition: opacity 3s; /*transition will apprear on opacity after 3 seconds*/
+}
+
+/* this class selector will be used when hoverable and material class is being used. Here the pseudo class is hoverable and then this style will be applicable to .material i.e all matrial descendents of .hoverable */
+
+.hoverable:hover .material{
+    opacity: 1;
+    transition: opacity 0s;
+}
