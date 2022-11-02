@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow function</title>
+</head>
+<body>
+    <script>
+        function fun(){
+            alert("hi");
+        }
+        fun();
+
+        //anonymous function
+        var fun=function(){
+            alert("hi");
+        }
+        fun();
+
+        //arrow operator- arrow function
+        var fun = ()=>{
+            alert("hi");
+        }
+        fun();
+
+        var fun = ()=> alert("hi");
+        func();
+        
+        //with value - parameter passing
+        var fun = (x)=> alert("hi"+x);
+        func(4);
+        
+        //if there is no paramter then () is optional i.e there is only one parameter
+        var fun = x=> alert("hi");
+        func();
+    </script>
+</body>
+</html>
