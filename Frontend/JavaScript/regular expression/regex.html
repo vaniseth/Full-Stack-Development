@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head><title>REGEX</title></head>
+    <body>
+        <script>
+            var str="To be or not to be: that is the question";
+            //replace all the instance of "be" with exist in the string.
+
+            var regex = /be/g;
+            var newStr =str.replace(regex, "exist");
+            alert(newStr);
+
+            //email-id validation
+            function validate(){
+                var patt= /^[a-z|A-Z] \w+@\w+./;
+                //at the start of the line any charcterSet from a-z or A-Z i.e the email id should start with a letter and can take any alphanumeric. +@ says that @ should be come and then any aphanumeric charcter should come then +. says that . should come and after that any charcter.
+
+                return patt.test("prateek_pandey@gmail.com");
+            }
+            alert(validate())
+            //test object is a method of Regex. It matches the string that we need to match with the pattern/regex. Test method returns a boolean value (Ture or False).
+        </script>
+    </body>
+</html>

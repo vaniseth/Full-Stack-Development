@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Strings in JavaScript</title>
+    </head>
+    <body>
+        <script>
+            var x = "JUET";
+            alert(x.charAt(1));
+            
+            var x = "JUET";
+            alert(x.substring(1,3));
+            
+            var x = "JUET";
+            alert(x.substr(1,3));
+
+            var x = "JUET";
+            alert(x.indexOf("E"));
+
+            var x = "JUET";
+            alert(x.lastIndexOf("E"));
+
+            var x = "bananas";
+            alert(x.indexOf("a")+" "+ x.lastIndexOf("a"));
+
+            var str="To be or not to be: that is the question";
+            //replace all the instance of "be" with exist in the string.
+            var regex = /be/;
+            var newStr =str.replace(regexp, "exist");
+            alert(newStr);
+
+            var x ="BANANALJJKIUG";
+            alert(x.substr(1,5));
+            
+        </script>    
+    </body>
+
+</html>
