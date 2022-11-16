@@ -8,13 +8,11 @@
 
 
 * Global features are always availabe you do not need to import them into the files where you want to use them.
-* Core node.js modules don't need to be installed but you need to import them when you want to use the features exposed by them. Example:
+* Core node.js modules don't need to be installed but you need to import them when you want to use the features exposed by them. Example: you can now use the fs object exported by the fs module.
 
 ```
 const fs = require('fs')
 ```
-
-you can now use the fs object exported by the fs module.
 
 * Third part modules need to be installed and imported. Example: In terminal we write
 
