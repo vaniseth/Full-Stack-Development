@@ -10,9 +10,9 @@ Nodejs is a JavaScript Runtime. We create a server using Nodejs to host the webs
 * Node.js uses an event-driven, non-blocking input output model that makes it efficent and lightweight.
 * Input-Output refers to reading-witing local files or making http request to an API.
 * Node.js is a single threaded application that actually leverages the multi-threaded behaviour of another processes for example database. The mechanism to leverage is event loop.
+* Node.js supports asynchronousity.
 
 ![1668580398031](image/README/1668580398031.png)
-
 
 # NOSQL DATABASE
 
