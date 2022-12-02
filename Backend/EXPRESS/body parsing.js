@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser,urlencoded({extended: false}));
 
 app.get("/product", (req,res,next)=>{
-    res.send("<form method ='POST' action = '/new-product'> <input type='text' name ='text1'> <input type = 'button' name = 'Click'>");
+    res.send("<form method ='POST' action = '/new-product'> <input type='text' name ='text1'> <input type = 'button' name = 'click'></form>");
 })
 
 app.post("/new-product", (req,res)=>{
