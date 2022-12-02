@@ -14,7 +14,8 @@ var result = (function(){
 })();
 
 // Sol of Counter Dilemma: we have used closure property to access a private variable. Along with closure we have also made the fucntion a self-invoking function.
-// this also a way to make a variable priavte in JavaScript. (INTERVIEW QUESTION)
+// this also a way to make a variable priavte in JavaScript. (INTERVIEW QUESTION) 
+// ans: using closure property we can make a variable private in JS.
 
 result(); //it stores the refernce of the inner function
 result();
